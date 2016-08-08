@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <SwitchPreference
+        android:summary="@string/pref_service"
+        android:key="@string/pref_service_key"
+        />
+
+
+    <Preference
+        android:summary="@string/pref_time"
+        android:widgetLayout="@layout/pref_set_time_button"
+        android:key="@string/pref_timebutton_key"
+        />
+
+
+</PreferenceScreen>

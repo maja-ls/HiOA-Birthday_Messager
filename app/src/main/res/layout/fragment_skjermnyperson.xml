@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background2"
+    android:fadeScrollbars="false"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/main_knapp_layout_padding_side"
+        android:paddingRight="@dimen/main_knapp_layout_padding_side"
+        android:paddingTop="@dimen/main_notice_layout_padding"
+        android:paddingBottom="@dimen/main_notice_layout_padding"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/text_white"
+            android:text="@string/fnametext"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_white"
+            android:inputType="textCapWords"
+            android:hint="@string/fnamehint"
+            android:id="@+id/fname"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/nyperson_textview_topmargin"
+            android:textColor="@color/text_white"
+            android:text="@string/lnametext"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_white"
+            android:inputType="textCapWords"
+            android:hint="@string/lnamehint"
+            android:id="@+id/lname"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/nyperson_textview_topmargin"
+            android:textColor="@color/text_white"
+            android:text="@string/phonetext"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_white"
+            android:hint="@string/phonehint"
+            android:inputType="phone"
+            android:digits="1234567890+"
+            android:id="@+id/phone"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/nyperson_textview_topmargin"
+            android:textColor="@color/text_white"
+            android:text="@string/bdaytext"
+            />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/nyperson_button_padding"
+
+            android:background="@drawable/main_button2"
+
+            android:hint="@string/selectdate"
+            android:id="@+id/knapp_velg_dato"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/currentdob"
+            android:textColor="@color/text_off_white"
+            android:text="@string/datenotset"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/nyperson_textview_topmargin"
+            android:textColor="@color/white"
+            android:text="@string/messagetext"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_white"
+            android:inputType="textMultiLine"
+            android:hint="@string/messagehint"
+            android:id="@+id/message"
+
+            />
+
+
+            <Button
+
+                android:layout_width="@dimen/nyperson_button_width"
+                android:layout_height="wrap_content"
+
+                android:padding="@dimen/nyperson_button_padding"
+                android:layout_marginTop="@dimen/nyperson_button_save_topmargin"
+                android:layout_gravity="center"
+
+                android:background="@drawable/main_button2"
+                android:drawableStart="@drawable/ic_check_black_36dp"
+
+                android:hint="@string/savehint"
+                android:id="@+id/knapp_lagre_ny_person"
+                />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

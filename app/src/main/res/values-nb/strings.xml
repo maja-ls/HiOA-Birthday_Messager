@@ -1,0 +1,75 @@
+<resources>
+    <!-- Disse brukes hovedsaklig i startvindu: -->
+    <string name="app_name">Bursdagshjernen</string>
+    <string name="showall">Personer</string>
+    <string name="newperson">Ny person</string>
+
+    <string name="emptyarray">Du har ikke lagret noen bursdager ennå!</string>
+    <string name="personcreated"> har blitt lagt til</string>
+
+    <string name="action_settings">Innstillinger</string>
+
+    <string name="main_button_new_person">Nytt bursdagsbarn</string>
+    <string name="main_button_show_persons">Vis bursdagsbarn</string>
+    <!-- startvindu slutt -->
+
+    <!-- Disse brukes hovedsaklig for preferences: -->
+    <string name="pref_service">Service for automatisk sms:</string>
+    <string name="pref_service_key">service_preference</string>
+    <string name="pref_time">Sett tidspunkt for utsendelse:</string>
+    <string name="pref_hour_key">hour_preference</string>
+    <string name="pref_minute_key">min_preference</string>
+    <string name="pref_timebutton_key">timebutton</string>
+    <string name="pref_button_title">Sett tid</string>
+    <!-- preferences slutt -->
+
+
+
+    <!-- Disse brukes med NyPersonFragment: -->
+    <string name="fnametext">Fornavn:</string>
+    <string name="lnametext">Etternavn:</string>
+    <string name="messagetext">Melding å sende:</string>
+    <string name="phonetext">Mobil nr:</string>
+    <string name="bdaytext">Fødselsdato:</string>
+
+    <string name="fnamehint">Kari</string>
+    <string name="lnamehint">Nordmann</string>
+    <string name="messagehint">Gratulerer med dagen, Kari!</string>
+    <string name="phonehint">99775533</string>
+
+    <string name="savehint">Lagre</string>
+    <string name="confirmcancel">Avbryte registrering?</string>
+    <string name="selectdate">Sett fødselsdag</string>
+    <string name="datenotset">Foreløpig ikke satt</string>
+    <string name="datesetto">Satt til:</string>
+
+    <string name="new_person_error_init">Følgende problemer må løses:</string>
+    <string name="new_person_error_fname">Fornavn må være en eller flere bokstaver.</string>
+    <string name="new_person_error_lname">Etternavn må være en eller flere bokstaver.</string>
+    <string name="new_person_error_phone">Mobilnr. må være et gyldig telefonnummer.</string>
+    <string name="new_person_error_sms">Meldingen må ha en eller flere tegn.</string>
+    <string name="new_person_error_date">Fødselsdatoen må stilles inn.</string>
+    <string name="new_person_warning_date">Bursdagen er nå satt til ETTER dagens dato!</string>
+    <string name="new_person_db_error">Feil ved lagring til db</string>
+    <string name="new_person_saved">lagret ok!</string>
+    <!-- Slutt NyPersonFragment -->
+
+    <!-- slette person/misc -->
+    <string name="person_delete_confirm">Virkelig slette?</string>
+    <string name="person_deleted">har blitt slettet.</string>
+    <string name="text_yes">Ja</string>
+    <string name="text_no">Nei</string>
+    <string name="edit">Rediger</string>
+    <string name="delete">Slett</string>
+    <string name="sms_sent">Sms har blitt sendt til:</string>
+
+    <!-- Notification -->
+    <string name="multi_intro">Følgende personer har bursdag</string>
+    <string name="single_intro">Følgende person har bursdag</string>
+    <string name="will_message">og vil være neste til å bli sendt melding:\n</string>
+    <string name="today">I DAG!</string>
+
+
+
+    <!-- -->
+</resources>

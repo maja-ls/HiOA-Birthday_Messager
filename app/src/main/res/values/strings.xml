@@ -1,0 +1,75 @@
+<resources>
+    <!-- Disse brukes hovedsaklig i startvindu: -->
+    <string name="app_name">Birthday Brain</string>
+    <string name="showall">People</string>
+    <string name="newperson">New person</string>
+
+    <string name="emptyarray">You haven\'t saved any birthdays yet!</string>
+    <string name="personcreated"> has been added</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="main_button_new_person">New birthday-kid</string>
+    <string name="main_button_show_persons">Show birthday-kids</string>
+    <!-- startvindu slutt -->
+
+    <!-- Disse brukes hovedsaklig for preferences: -->
+    <string name="pref_service">Service for automatic sms:</string>
+    <string name="pref_service_key">service_preference</string>
+    <string name="pref_time">Set sms send time:</string>
+    <string name="pref_hour_key">hour_preference</string>
+    <string name="pref_minute_key">min_preference</string>
+    <string name="pref_timebutton_key">timebutton</string>
+    <string name="pref_button_title">Set time</string>
+    <!-- preferences slutt -->
+
+
+
+    <!-- Disse brukes med NyPersonFragment: -->
+    <string name="fnametext">First name:</string>
+    <string name="lnametext">Last name:</string>
+    <string name="messagetext">Message to send:</string>
+    <string name="phonetext">Phone number:</string>
+    <string name="bdaytext">Date of birth:</string>
+
+    <string name="fnamehint">Jane</string>
+    <string name="lnamehint">Doe</string>
+    <string name="messagehint">Happy birthday, Jane!</string>
+    <string name="phonehint">555-1234</string>
+
+    <string name="savehint">Save</string>
+    <string name="confirmcancel">Cancel registration?</string>
+    <string name="selectdate">Set D.O.B.</string>
+    <string name="datenotset">Currently not set</string>
+    <string name="datesetto">Currently set to:</string>
+
+    <string name="new_person_error_init">The following has to be fixed:</string>
+    <string name="new_person_error_fname">First name needs to one or more characters.</string>
+    <string name="new_person_error_lname">Last name needs to one or more characters.</string>
+    <string name="new_person_error_phone">Phone needs to be a valid phone number.</string>
+    <string name="new_person_error_sms">The message needs to one or more characters.</string>
+    <string name="new_person_error_date">The birth date needs to be set.</string>
+    <string name="new_person_warning_date">The birth date is now set to after today!</string>
+    <string name="new_person_db_error">Error saving to db</string>
+    <string name="new_person_saved">saved ok!</string>
+    <!-- Slutt NyPersonFragment -->
+
+    <!-- slette person/misc -->
+    <string name="person_delete_confirm">Really delete?</string>
+    <string name="person_deleted">has been deleted.</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="sms_sent">Sms has been sent to:</string>
+
+    <!-- Notification -->
+    <string name="multi_intro">The following people have a birthday</string>
+    <string name="single_intro">The following person has a birthday</string>
+    <string name="will_message">and will be messaged next:\n</string>
+    <string name="today">TODAY!</string>
+
+
+
+    <!-- -->
+</resources>
